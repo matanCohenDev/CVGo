@@ -1,0 +1,39 @@
+.testimonials-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 20px;
+  background-color: #f7f9fc;
+
+}
+
+.testimonial {
+  max-width: 500px;
+  position: relative;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #0f172a;
+}
+
+.quote-icon {
+  font-size: 48px;
+  color: #6366f1;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.author {
+  color: #334155;
+}
+
+.author span {
+  font-weight: normal;
+  color: #64748b;
+  margin-left: 4px;
+}
