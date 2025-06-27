@@ -1,0 +1,31 @@
+.features-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  padding: 6rem 2rem;
+  flex-wrap: wrap;
+  background-color: #f9fafb;
+  text-align: center;
+}
+
+.feature-card {
+  max-width: 320px;
+}
+
+.feature-card .icon {
+  margin-bottom: 1rem;
+}
+
+.feature-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 0.75rem;
+}
+
+.feature-card p {
+  color: #4b5563;
+  font-size: 1rem;
+  line-height: 1.5;
+}
